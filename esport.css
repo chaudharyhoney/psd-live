@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 110%;
+    
+}
+body{
+    background-color: rgb(14, 14, 109);
+
+}
+.row1{
+    display: flex;
+    /* margin: 20px 100px; */
+    padding: 30px;
+    background-color: rgb(14, 14, 109);
+    width: 100%;
+    text-decoration: solid;
+    font-style:unset;
+    font-size: 20px;
+    color: #fefefe;
+    font-weight: 700; 
+    /* font-family: "Bebas Neue"; */
+       
+}
+.col1 img{
+    width: 100px;
+}
+.col1 a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+}
+#small{
+    width: 100%;
+}
+.row2{
+    display: flex;
+}
+.col3{
+    position: relative;
+}
+.text{
+    position: absolute;
+    margin-left: 1000px;
+    color: white;
+    margin-top: 100px;
+    padding: 50px;
+}
+.row3{
+    display: flex;
+    background-color: rgb(14, 14, 109);
+    width: 100%;
+       
+}
+.row3img{
+    width: 100%;
+}
+.row3 a{
+    text-decoration: none;
+    color: rgb(199, 59, 152);
+    padding: 0 10px;
+}
+button{
+    background-color: rgb(199, 59, 152);
+    color: white;
+    border-style: none;
+    padding: 10px;
+
+}
+.col5{
+    margin-left: 30px;
+    
+}
+/* .align{ */
+    /* align-items: center; */
+/* } */
+.hide{
+    overflow: hidden;
+}

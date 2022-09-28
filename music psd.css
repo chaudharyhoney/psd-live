@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Rock Salt;
+    src: url("fonts/RockSalt-Regular.ttf");
+}
+
+body {
+    background: url("Background\ main.png");
+}
+
+.van-img {
+    position: absolute;
+    top: -100px;
+    right: -275px;
+}
+
+.van-img1 {
+    position: absolute;
+    left: -200px;
+    bottom: -100px;
+
+}
+
+.van-img2 {
+    position: absolute;
+    right: 0;
+    bottom: -300px;
+}
+
+.row {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    bottom: 100px;
+    left: 200px;
+}
+
+.heading h1 {
+    font-family: "Rock Salt";
+    font-size: 40px;
+    position: absolute;
+}
+
+.col1 {
+    width: 30%;
+    padding: 100px;
+}
+
+/* .col2{
+    width: 30%;
+    position: absolute;
+    padding: 100px;
+}
+.col3{
+    width: 30%;
+    padding: 100px;
+
+} */
+.pr-st {
+    width: 741px;
+    height: 388px;
+    font-size: 19px;
+    color: #696969;
+    font-weight: 400;
+    /* font-family: "Rock Salt"; */
+    text-align: left;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
